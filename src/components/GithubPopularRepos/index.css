@@ -1,0 +1,73 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.popular-heading {
+  font-weight: bold;
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 35px;
+  text-align: center;
+}
+
+.languages-filter-container {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  list-style: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .languages-filter-container {
+    width: 500px;
+  }
+}
+
+.failure-img {
+  width: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-img {
+    width: 40%;
+  }
+}
+
+.err-msg {
+  font-weight: bold;
+  font-size: 35px;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  margin-top: 10px;
+}
+
+.repos-container {
+  list-style: none;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .repos-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 72%;
+  }
+}

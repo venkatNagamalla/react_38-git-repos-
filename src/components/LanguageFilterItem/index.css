@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.filter-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 3px;
+  padding-inline: 10px;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.active {
+  border-radius: 10px;
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  padding: 3px;
+  padding-inline: 10px;
+  cursor: pointer;
+}
